@@ -106,24 +106,24 @@
 :root {
   /* Typography */
   --font-family-body: "sarpanch", sans-serif;
-  --font-family-heading: "Jost", serif;
+  --font-family-heading: "sarpanch", serif;
   --font-family-project-title: "Jost", serif;
   /* Core Colours */
-  --color-text-primary: #0d0d0d;
-  --color-text-secondary: #333;
-  --color-accent-primary: #00205b;
-  --color-accent-secondary: #7ac1ff;
-  --color-overlay-primary: rgba(158, 114, 255, 0.5);
+  --color-text-primary: #d0d0d0;
+  --color-text-secondary: #ffffff;
+  --color-accent-primary: #d0d0d0;
+  --color-accent-secondary: #6a00ff;
+  --color-overlay-primary: rgba(0, 47, 255, 0.523);
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #000000;
-  --color-bg-about: #f5f5f5;
-  --color-bg-footer: #f5f5f5;
+  --color-bg-about: #000000;
+  --color-bg-footer: #000000;
   --color-bg-holding-page: rgba(82, 0, 255, 0.6);
   /* Headings */
-  --h1-color: #704dbb;
-  --h2-color: #1f0062;
+  --h1-color: #b492ff;
+  --h2-color: #4f00f9;
   --h3-color: #5200ff;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
@@ -137,15 +137,15 @@
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #5200ff;
-  --color-link-hover: #111;
+  --color-link-hover: #0099ff;
   --color-link-visited: #5200ff;
   /* Navigation */
-  --color-nav-link: #5200ff;
-  --color-nav-link-hover: #321575;
+  --color-nav-link: #c1c5ff;
+  --color-nav-link-hover: #0099ff;
   --color-nav-arrow: #5200ff;
-  --color-nav-arrow-hover: #000;
+  --color-nav-arrow-hover: #ffffff;
   --color-nav-arrow-stroke: #5200ff;
-  --color-nav-arrow-stroke-hover: #000;
+  --color-nav-arrow-stroke-hover: #16b9ff;
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
@@ -162,7 +162,7 @@
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
   --color-bg-selection: #5200ff;
-  --color-shadow-stroke: rgba(0, 0, 0, 0.4);
+  --color-shadow-stroke: rgba(130, 130, 130, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
   /* Animation Durations */
