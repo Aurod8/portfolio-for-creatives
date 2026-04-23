@@ -717,7 +717,14 @@ a.nav-link-primary:hover {
 
 .nav-branding-logo {
   width: 3rem;
-  /* TODO: Adjust the width of the logo on mobile devices here */
+  transition: filter 0.2s, color 0.2s, fill 0.2s;
+}
+
+.nav-branding-logo:hover {
+  filter: drop-shadow(0 0 6px var(--color-nav-link-hover));
+  /* For inline SVGs, also change fill if possible */
+  fill: var(--color-nav-link-hover);
+  color: var(--color-nav-link-hover);
 }
 
 .hero-headline-wrapper {
@@ -918,8 +925,6 @@ a.nav-link-primary:hover {
 ███████ ██ ██   ██ █████   ██████  ███████ ██████  
      ██ ██ ██   ██ ██      ██   ██ ██   ██ ██   ██ 
 ███████ ██ ██████  ███████ ██████  ██   ██ ██   ██ 
-                                                   
-                                                   
 */
 
 /* -------------------------------------------------------------------------- */
@@ -1299,7 +1304,7 @@ a.nav-link-primary:hover {
 /*
 ███████ ██████  ██████   ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
-█████   ██████  ██████  ██    ██ ██████  
+███████ ██   ██ ██   ██ ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
 ███████ ██   ██ ██   ██  ██████  ██   ██ 
 */
